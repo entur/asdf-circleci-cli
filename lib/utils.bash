@@ -37,7 +37,20 @@ download_release() {
   version="$1"
   filename="$2"
 
-  url="$GH_REPO/releases/download/v${version}/circleci-cli_${version}_linux_amd64.tar.gz"
+  case "$(uname)" in
+    Linux)
+      OS='linux'
+    ;;
+    Darwin)
+      OS='darwin'
+    ;;
+    *)
+      echo "This operating system is not supported."
+      exit 1	
+    ;;
+  esac
+
+  url="$GH_REPO/releases/download/v${version}/circleci-cli_${version}_${OS}_amd64.tar.gz"
 
   echo "* Downloading $TOOL_NAME release $version..."
   curl "${curl_opts[@]}" -o "$filename" -C - "$url" || fail "Could not download $url"
