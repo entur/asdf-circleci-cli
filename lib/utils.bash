@@ -38,15 +38,15 @@ download_release() {
   filename="$2"
 
   case "$(uname)" in
-    Linux)
-      OS='linux'
+  Linux)
+    OS='linux'
     ;;
-    Darwin)
-      OS='darwin'
+  Darwin)
+    OS='darwin'
     ;;
-    *)
-      echo "This operating system is not supported."
-      exit 1	
+  *)
+    echo "This operating system is not supported."
+    exit 1
     ;;
   esac
 
