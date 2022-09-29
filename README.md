@@ -1,6 +1,6 @@
 <div align="center">
 
-# asdf-circleci-cli [![Build](https://github.com/tommybo-entur/asdf-circleci-cli/actions/workflows/build.yml/badge.svg)](https://github.com/tommybo-entur/asdf-circleci-cli/actions/workflows/build.yml) [![Lint](https://github.com/tommybo-entur/asdf-circleci-cli/actions/workflows/lint.yml/badge.svg)](https://github.com/tommybo-entur/asdf-circleci-cli/actions/workflows/lint.yml)
+# asdf-circleci-cli [![Build](https://github.com/entur/asdf-circleci-cli/actions/workflows/build.yml/badge.svg)](https://github.com/entur/asdf-circleci-cli/actions/workflows/build.yml) [![Lint](https://github.com/entur/asdf-circleci-cli/actions/workflows/lint.yml/badge.svg)](https://github.com/entur/asdf-circleci-cli/actions/workflows/lint.yml)
 
 
 [circleci-cli](https://circleci-public.github.io/circleci-cli/) plugin for the [asdf version manager](https://asdf-vm.com).
@@ -25,7 +25,7 @@ Plugin:
 ```shell
 asdf plugin add circleci-cli
 # or
-asdf plugin add circleci-cli https://github.com/tommybo-entur/asdf-circleci-cli.git
+asdf plugin add circleci-cli https://github.com/entur/asdf-circleci-cli.git
 ```
 
 circleci-cli:
@@ -51,8 +51,8 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/tommybo-entur/asdf-circleci-cli/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/entur/asdf-circleci-cli/graphs/contributors)!
 
 # License
 
-See [LICENSE](LICENSE) © [Tommy Bø](https://github.com/tommybo-entur/)
+See [LICENSE](LICENSE) © [Entur AS](https://github.com/entur/)
